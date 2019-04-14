@@ -1,5 +1,3 @@
-// HOW DO I GET THE ALBUM JSON INTO HERE?
-
 import React from "react";
 import "./style.css";
 
@@ -12,21 +10,14 @@ function AlbumCard(props) {
       <div className="content">
         <ul>
           <li>
-            <strong>Album:</strong> {props.name}
+            {props.name}
           </li>
           <li>
-            <strong>Artist:</strong> {props.artist}
-          </li>
-          <li>
-            <strong>Year Released:</strong> {props.year}
-          </li>
-          <li>
-            <strong>Genre:</strong> {props.genre}
+            {props.artist}
           </li>
         </ul>
       </div>
       <span onClick={() => props.removeAlbum(props.id)} className="remove">
-        𝘅
       </span>
     </div>
   );

@@ -3,96 +3,72 @@
         "id": 1,
         "name": "Siamese Dream",
         "image": "../images/siamese-dream.jpg",
-        "artist": "Smashing Pumpkins",
-        "year": "1993",
-        "genre": "Alternative Rock"
+        "artist": "Smashing Pumpkins"
     },
     {
         "id": 2,
         "name": "The Moon and Antarctica",
         "image": "../images/moon.jpg",
-        "artist": "Modest Mouse",
-        "year": "2000",
-        "genre": "Indie Rock"
+        "artist": "Modest Mouse"
     },
     {
         "id": 3,
         "name": "Eyelid Movies",
         "image": "../images/eyelid.jpg",
-        "artist": "Phantogram",
-        "year": "2010",
-        "genre": "Electronic Rock"
+        "artist": "Phantogram"
     },
     {
         "id": 4,
         "name": "OK Computer",
         "image": "../images/computer.jpg",
-        "artist": "Radiohead",
-        "year": "1997",
-        "genre": "Art Rock"
+        "artist": "Radiohead"
     },
     {
         "id": 5,
         "name": "Summer in Abaddon",
         "image": "../images/summer.jpg",
-        "artist": "Pinback",
-        "year": "2004",
-        "genre": "Indie Rock"
+        "artist": "Pinback"
     },
     {
         "id": 6,
         "name": "Pikul",
         "image": "../images/pikul.jpg",
-        "artist": "Silversun Pickups",
-        "year": "2005",
-        "genre": "Indie Rock"
+        "artist": "Silversun Pickups"
     },
     {
         "id": 7,
         "name": "Animals",
         "image": "../images/animals.jpg",
-        "artist": "Pink Floyd",
-        "year": "1977",
-        "genre": "Prog Rock"
+        "artist": "Pink Floyd"
     },
     {
         "id": 8,
         "name": "Fantastic Planet",
         "image": "../images/fantastic.jpg",
-        "artist": "Failure",
-        "year": "1996",
-        "genre": "Space Rock"
+        "artist": "Failure"
     },
     {
         "id": 9,
         "name": "Pinkerton",
         "image": "../images/pinkerton.jpg",
-        "artist": "Weezer",
-        "year": "1996",
-        "genre": "Alternative Rock"
+        "artist": "Weezer"
     },
     {
         "id": 10,
         "name": "How It Feels to Be Something On", 
         "image": "../images/sunny.jpg",
-        "artist": "Sunny Day Real Estate",
-        "year": "1998",
-        "genre": "Emo"
+        "artist": "Sunny Day Real Estate"
     },
     {
         "id": 11,
         "name": "Rubberneck",
         "image": "../images/toadies.jpg",
-        "artist": "Toadies",
-        "year": "1994",
-        "genre": "Alternative Rock"
+        "artist": "Toadies"
     },
     {
         "id": 12,
         "name": "High/Low",
         "image": "../images/nada.jpg",
-        "artist": "Nada Surf",
-        "year": "1996",
-        "genre": "Indie Rock"
+        "artist": "Nada Surf"
     }
 ]

@@ -1,0 +1,13 @@
+ul.navList {
+  display: flex;
+  justify-content: space-around;
+  font-size: 2rem;
+  list-style-type:none
+}
+
+.logo, .score, .click {
+  color: black;
+}
+
+
+  
