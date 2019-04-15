@@ -1,65 +1,51 @@
-# Clicky Game
+# **React Clicky Application**
 
-## Overview
+## **Overview**
 
-For this assignment, you'll create a memory game with React. This assignment will require you to break up your application's UI into components, manage component state, and respond to user events.
+This app is a memory game with React. In this game, the user must click on each of my favorite albums only ONCE to win the game. If the user clicks on the same album twice, it's game over. 
 
-### Submission on BCS
+**Deploy App**
 
-* **This assignment must be deployed.** * Please submit both the deployed GitHub Pages link to your homework AND the link to the Github Repository!
+Visit this site to deploy the app: 
 
-### Instructions
+## **Technical Details**
+**Technologies Used**
 
-1. Check out the [example solution](https://clicky-game.netlify.com/) and study the app's basic functionality.
+- React
+- Javascript ES6
+- CSS
 
-2. Create a new React application using [Create React App](https://github.com/facebookincubator/create-react-app).
+This application is made up of an App.js file that interacts with the following components:
+- Navbar - displays the title, score, and win/lose status
+- Instructions - displays brief instructions on how to play the game
+- AlbumCard - displays each album image and information
+- Wrapper - formats the placement of each image
 
-3. The application should render different images (of your choice) to the screen. Each image should listen for click events.
+**Installations**
 
-4. The application should keep track of the user's score. The user's score should be incremented when clicking an image for the first time. The user's score should be reset to 0 if they click the same image more than once.
+To create your own react application to play this game, navigate to the root of your project and run the following in your terminal:
+- npm create-react-app my-app (my-app = your app name)
+- cd my-app
+- npm start
 
-5. Every time an image is clicked, the images rendered to the page should shuffle themselves in a random order.
+Then, replace the "src" file with the version included in this repository.
 
-6. Once the user's score is reset after an incorrect guess, the game should restart.
+**Explanation**
 
-7. When complete, the application should be deployed to Github Pages. See the README generated with Create React App for instructions on deploying the application to Github Pages.
+The application renders album cover images to the screen. Each image listens for a click event.
 
-- - -
+The application keeps track of the user's score. The user's score is incremented when clicking an image for the first time. The user's score is reset to 0 if they click the same image more than once.
 
-#### Minimum Requirements
+Every time an image is clicked, the images rendered to the page shuffle in a random order.
 
-* **This assignment must be deployed.** Attempt to complete homework assignment as described in instructions. If unable to complete certain portions, please pseudocode these portions to describe what remains to be completed. Hosting on Github Pages and adding a README.md are required for this homework. In addition, add this homework to your portfolio. More information can be found below.
+Once the user's score is reset after an incorrect guess, the game will restart!
 
-- - -
+## **Screenshot**
 
-#### Hints
+![Game](/clicky-app/public/images/screenshot.png)
 
-* Begin by building a non-functioning static version for your Clicky Game. Then work on making the game interactive.
+**Thank you for visiting my React Clicky Game project!**
 
-### Reminder: Submission on BCS
+## **Author**
 
-* Please submit both the deployed GitHub Pages link to your homework AND the link to the Github Repository!
-
-- - -
-
-### Create a README.md
-
-Add a `README.md` to your repository describing the project. Here are some resources for creating your `README.md`. Here are some resources to help you along the way:
-
-* [About READMEs](https://help.github.com/articles/about-readmes/)
-
-* [Mastering Markdown](https://guides.github.com/features/mastering-markdown/)
-
-- - -
-
-### Add To Your Portfolio
-
-After completing the homework please add the piece to your portfolio. Make sure to add a link to your updated portfolio in the comments section of your homework so the TAs can easily ensure you completed this step when they are grading the assignment. To receive an 'A' on any assignment, you must link to it from your portfolio.
-
-- - -
-
-#### One More Thing
-
-If you have any questions about this project or the material we have covered, please post them in the community channels in slack so that your fellow developers can help you! If you're still having trouble, you can come to office hours for assistance from your instructor and TAs.
-
-**Good Luck!**
+**Ashley Shaw** - https://ashbshaw.github.io/Ashley-Shaw-Portfolio/

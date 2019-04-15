@@ -1,12 +1,9 @@
 .wrapper {
-    /* How do I map to an image? Getting an error. */
-    /* background: url("../../../public/images/wild_oliva.png"); */
-    background-color: black;
-    background-size: 100%;
-    display: flex;
-    flex-flow: row wrap;
-    padding-bottom: 100px;
-    justify-content: space-around;
-    align-content: flex-start;
-    overflow: auto;
+  background-color: black;
+  background-size: 100%;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  align-content: flex-start;
+  overflow: auto;
   }

@@ -12,12 +12,12 @@ class Navigation extends Component {
             message = "Click an image to begin"
             className = "click"
         } else {
-            message = gameWon ? "You won!" : (correct ? "Correct!" : "Oops!")
+            message = gameWon ? "You won!" : (correct ? "Correct!" : "Oops! Try Again.")
             className = correct ? "correct" : "incorrect"
-        }
+        };
 
         return <li key={Math.random()} className={className}>{message}</li>
-    }
+    };
 
     render() {
         return (
@@ -30,8 +30,8 @@ class Navigation extends Component {
                     </ul>
                 </div>
             </nav>
-        )
-    }
-}
+        );
+    };
+};
 
 export default Navigation

@@ -1,9 +1,7 @@
-/* @import url("https://fonts.googleapis.com/css?family=Amatic SC"); */
-
 html, body, #root {
   margin: 0;
   padding: 0;
-  height: 100%;
   font-family: sans-serif;
   background-color: rgb(121, 183, 202);
 }
+

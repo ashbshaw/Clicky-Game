@@ -2,7 +2,7 @@
     background: black;
     border-radius: 1px;
     height: 250px;
-    margin: .75rem;
+    margin: 1.5rem;
     position: relative;
     width: 200px;
     box-shadow: 0 3px 6px #999, 0 3px 6px #999;
@@ -27,5 +27,5 @@
     padding-left: 0;
     list-style-type: none;
   }
-  
+
   

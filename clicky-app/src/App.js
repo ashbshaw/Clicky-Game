@@ -5,12 +5,8 @@ import Wrapper from "./components/Wrapper";
 import Instruct from "./components/Instructions";
 import albums from "./albums.json";
 import Navbar from "./components/Navbar";
-// https://fontawesome.com/how-to-use/on-the-web/using-with/react
-// import "font-awesome/css/font-awesome.css";
 
 class App extends Component {
-  // Setting this.state.albums to the albums json array
-  // Something is off here. Not sure how to connect the album with the click handler
   state = {
     albums,
     clicked: [],
@@ -20,7 +16,6 @@ class App extends Component {
     gameWon: false
   };
 
-  // Obtained through research - need to talk through it
   randomize = () => Math.random() > .5 ? -1 : 1
 
   clickHandler = picture => {
@@ -34,8 +29,8 @@ class App extends Component {
             score: score,
             highScore: Math.max(this.state.highScore, score),
             correct: true,
-            gameWon: score === this.state.icons.length
-        })
+            gameWon: score === this.state.albums.length
+        });
     } else {
         this.setState({
             albums: this.state.albums.sort(this.randomize),
@@ -43,11 +38,10 @@ class App extends Component {
             score: 0,
             correct: false,
             gameWon: false
-        })
-    }
-}
+        });
+    };
+};
 
-  // Map over this.state.albums and render a AlbumCard component for each album object
   render() {
     return (
       <React.Fragment>
@@ -61,12 +55,13 @@ class App extends Component {
               name={album.name}
               image={album.image}
               artist={album.artist}
+              handleClick={this.clickHandler}
             />
-          ))}
+          ))};
         </Wrapper>
       </React.Fragment>
     );
-  }
-}
+  };
+};
 
 export default App;

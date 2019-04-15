@@ -3,7 +3,7 @@ import "./style.css";
 
 function AlbumCard(props) {
   return (
-    <div className="card">
+    <div className="card" onClick={() => props.handleClick(props.id)}>
       <div className="img-container">
         <img alt={props.name} src={props.image} />
       </div>
@@ -17,10 +17,8 @@ function AlbumCard(props) {
           </li>
         </ul>
       </div>
-      <span onClick={() => props.removeAlbum(props.id)} className="remove">
-      </span>
     </div>
   );
-}
+};
 
 export default AlbumCard;
