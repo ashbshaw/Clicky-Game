@@ -1,9 +1,8 @@
-
 import React, { Component } from "react";
 import AlbumCard from "./components/AlbumCard";
 import Wrapper from "./components/Wrapper";
 import Instruct from "./components/Instructions";
-import albums from "./albums.json";
+import albums from "./images";
 import Navbar from "./components/Navbar";
 
 class App extends Component {

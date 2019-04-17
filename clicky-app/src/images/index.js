@@ -1,74 +1,87 @@
-[
+import siameseDream from "./siamese-dream.jpg"
+import moon from "./moon.jpg"
+import eyelid from "./eyelid.jpg"
+import computer from "./computer.jpg"
+import summer from "./summer.jpg"
+import pikul from "./pikul.jpg"
+import animals from "./animals.jpg"
+import fantastic from "./fantastic.jpg"
+import pinkerton from "./pinkerton.jpg"
+import sunny from "./sunny.jpg"
+import toadies from "./toadies.jpg"
+import nada from "./nada.jpg"
+
+export default [
     {
         "id": 1,
         "name": "Siamese Dream",
-        "image": "../images/siamese-dream.jpg",
+        "image": siameseDream,
         "artist": "Smashing Pumpkins"
     },
     {
         "id": 2,
         "name": "The Moon and Antarctica",
-        "image": "../images/moon.jpg",
+        "image": moon,
         "artist": "Modest Mouse"
     },
     {
         "id": 3,
         "name": "Eyelid Movies",
-        "image": "../images/eyelid.jpg",
+        "image": eyelid,
         "artist": "Phantogram"
     },
     {
         "id": 4,
         "name": "OK Computer",
-        "image": "../images/computer.jpg",
+        "image": computer,
         "artist": "Radiohead"
     },
     {
         "id": 5,
         "name": "Summer in Abaddon",
-        "image": "../images/summer.jpg",
+        "image": summer,
         "artist": "Pinback"
     },
     {
         "id": 6,
         "name": "Pikul",
-        "image": "../images/pikul.jpg",
+        "image": pikul,
         "artist": "Silversun Pickups"
     },
     {
         "id": 7,
         "name": "Animals",
-        "image": "../images/animals.jpg",
+        "image": animals,
         "artist": "Pink Floyd"
     },
     {
         "id": 8,
         "name": "Fantastic Planet",
-        "image": "../images/fantastic.jpg",
+        "image": fantastic,
         "artist": "Failure"
     },
     {
         "id": 9,
         "name": "Pinkerton",
-        "image": "../images/pinkerton.jpg",
+        "image": pinkerton,
         "artist": "Weezer"
     },
     {
         "id": 10,
         "name": "How It Feels to Be Something On", 
-        "image": "../images/sunny.jpg",
+        "image": sunny,
         "artist": "Sunny Day Real Estate"
     },
     {
         "id": 11,
         "name": "Rubberneck",
-        "image": "../images/toadies.jpg",
+        "image": toadies,
         "artist": "Toadies"
     },
     {
         "id": 12,
         "name": "High/Low",
-        "image": "../images/nada.jpg",
+        "image": nada,
         "artist": "Nada Surf"
     }
 ]
