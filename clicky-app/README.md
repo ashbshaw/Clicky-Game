@@ -1,68 +1,51 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# **React Clicky Application**
 
-## Available Scripts
+## **Overview**
 
-In the project directory, you can run:
+This app is a memory game with React. In this game, the user must click on each of my favorite albums only ONCE to win the game. If the user clicks on the same album twice, it's game over. 
 
-### `npm start`
+**Deploy App**
 
-Runs the app in the development mode.<br>
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Visit this site to deploy the app: 
 
-The page will reload if you make edits.<br>
-You will also see any lint errors in the console.
+## **Technical Details**
+**Technologies Used**
 
-### `npm test`
+- React
+- Javascript ES6
+- CSS
 
-Launches the test runner in the interactive watch mode.<br>
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+This application is made up of an App.js file that interacts with the following components:
+- Navbar - displays the title, score, and win/lose status
+- Instructions - displays brief instructions on how to play the game
+- AlbumCard - displays each album image and information
+- Wrapper - formats the placement of each image
 
-### `npm run build`
+**Installations**
 
-Builds the app for production to the `build` folder.<br>
-It correctly bundles React in production mode and optimizes the build for the best performance.
+To create your own react application to play this game, navigate to the root of your project and run the following in your terminal:
+- npm create-react-app my-app (my-app = your app name)
+- cd my-app
+- npm start
 
-The build is minified and the filenames include the hashes.<br>
-Your app is ready to be deployed!
+Then, replace the "src" file with the version included in this repository.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+**Explanation**
 
-### `npm run eject`
+The application renders album cover images to the screen. Each image listens for a click event.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+The application keeps track of the user's score. The user's score is incremented when clicking an image for the first time. The user's score is reset to 0 if they click the same image more than once.
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Every time an image is clicked, the images rendered to the page shuffle in a random order.
 
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+Once the user's score is reset after an incorrect guess, the game will restart!
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+## **Screenshot**
 
-## Learn More
+![Game](./public/images/screenshot.png)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+**Thank you for visiting my React Clicky Game project!**
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## **Author**
 
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+**Ashley Shaw** - https://ashbshaw.github.io/Ashley-Shaw-Portfolio/
